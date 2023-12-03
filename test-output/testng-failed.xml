@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.Timeflow">
+        <methods>
+          <include name="time3"/>
+          <include name="time23"/>
+          <include name="time2"/>
+          <include name="time22"/>
+          <include name="time5"/>
+          <include name="time4"/>
+          <include name="time24"/>
+          <include name="tileflowmethod"/>
+          <include name="time1"/>
+          <include name="time32"/>
+          <include name="time21"/>
+          <include name="time31"/>
+        </methods>
+      </class> <!-- tests.Timeflow -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
